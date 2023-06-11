@@ -1,0 +1,94 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+}
+
+header{
+   padding-inline: 125px;
+   padding-block: 40px;
+}
+
+.contenedor {
+   display: flex;
+   flex-wrap: inherit;
+   align-items: center;
+   justify-content: space-between;
+   margin: auto;
+}
+
+header nav{
+   display: flex;
+   align-items: center;
+}
+
+header a{
+   padding: 5px 12px;
+   text-decoration: none;
+   font-weight: bold;
+   color: white;
+}
+
+.contenido{
+   padding-inline: 125px;
+   padding-block: 40px;
+   max-width: 900px;
+}
+
+.imagenletras{
+   padding-bottom: 5px;
+}
+
+.info{
+   color: rgb(183, 192, 199);
+}
+
+.info code{
+   background-color: red;
+   padding: 1px 5px;
+   font-style: normal;
+   color: white;
+}
+
+.descrip{
+   padding-top: 10px;
+   padding-bottom: 20px;
+   color: white;
+   line-height: 25px;
+}
+
+.botones {
+   display: flex;
+}
+
+.play{
+   margin-right: 20px;
+   font-size: 1.0em;
+   border: currentColor;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+   color: white;
+   background-color: red;
+}
+
+.botones button{
+   padding: 8px 25px;
+}
+
+.list{
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   border: currentColor;
+}
+
+header a:hover {
+   color: black;
+}
